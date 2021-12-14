@@ -41,7 +41,7 @@ function ParticlesAnimated() {
   const { count, size, positionFactor, textureType, rotationSpeed, waveFactor } = useControls({
     textureType: {
       value: 0,
-      min: 1,
+      min: 0,
       max: 12,
       step: 1
     },
