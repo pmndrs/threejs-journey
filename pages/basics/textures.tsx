@@ -1,4 +1,4 @@
-import { TexturesExample } from "../../examples/basics/textures/textures"
+import { TexturesExample } from "../../examples/basics/Textures/Textures"
 
 const TexturesPage = () => {
     return <TexturesExample/>
