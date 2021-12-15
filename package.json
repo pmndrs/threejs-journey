@@ -11,6 +11,7 @@
     "@react-three/cannon": "^4.2.0",
     "@react-three/drei": "^8.2.1",
     "@react-three/fiber": "^7.0.24",
+    "@react-three/flex": "^0.7.0",
     "@types/three": "^0.135.0",
     "babel-plugin-glsl": "^1.0.0",
     "cannon-es": "^0.18.0",
@@ -21,6 +22,7 @@
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-use-refs": "^1.0.1",
+    "short-uuid": "^4.2.0",
     "three": "^0.135.0"
   },
   "devDependencies": {
