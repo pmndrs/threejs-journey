@@ -16,7 +16,7 @@ function Model() {
 
   return (
     <>
-      <meshPhysicalMaterial ref={setMaterial as unknown as RefObject<any>} side={THREE.DoubleSide} {...materialProps} />
+      <meshPhysicalMaterial ref={setMaterial} side={THREE.DoubleSide} {...materialProps} />
       <Sphere args={[1, 32, 32]} material={material} />
       <Plane args={[2, 2]} position={[3, 0, 0]} material={material}  />
       <Torus args={[1, 0.5, 32, 32]} position={[-3.5, 0, 0]} material={material} />
