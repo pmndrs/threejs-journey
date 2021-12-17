@@ -1,0 +1,4 @@
+
+.canvas > div {
+    mix-blend-mode: multiply;
+}
