@@ -1,0 +1,23 @@
+.container {
+    max-width: min(80vw, 1024px);
+    margin: 0 auto;
+    padding-block: 12px;
+}
+
+
+.example-row__title {
+    text-decoration: none;
+}
+
+.example-row__list {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.example-card a {
+    text-decoration: none;
+    color: black;
+}

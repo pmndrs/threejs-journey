@@ -1,10 +1,14 @@
-import type { NextPage } from 'next'
+import { ExamplesList } from '../components/ExamplesList/ExamplesList'
+import { Header } from '../components/Header/Header'
 
-const Home: NextPage = () => {
+const Home = () => {
   return (
-    <h1>
-      Three.js Journey
-    </h1>
+    <div>
+      <Header />
+      <main>
+        <ExamplesList />
+      </main>
+    </div>
   )
 }
 
