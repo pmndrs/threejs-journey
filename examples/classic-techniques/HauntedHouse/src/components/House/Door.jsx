@@ -3,13 +3,13 @@ import { useTexture } from '@react-three/drei'
 
 function Door(props) {
   const textureProps = useTexture({
-    map: 'texture/door/color.jpg',
-    alphaMap: 'texture/door/opacity.jpg',
-    normalMap: 'texture/door/normal.jpg',
-    metalnessMap: 'texture/door/metallic.jpg',
-    roughnessMap: 'texture/door/roughness.jpg',
-    displacementMap: 'texture/door/height.png',
-    aoMap: 'texture/door/ambientOcclusion.jpg',
+    map: 'textures/door/color.jpg',
+    alphaMap: 'textures/door/opacity.jpg',
+    normalMap: 'textures/door/normal.jpg',
+    metalnessMap: 'textures/door/metallic.jpg',
+    roughnessMap: 'textures/door/roughness.jpg',
+    displacementMap: 'textures/door/height.png',
+    aoMap: 'textures/door/ambientOcclusion.jpg',
   })
 
   return (

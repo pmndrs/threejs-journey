@@ -4,11 +4,11 @@ import * as THREE from 'three'
 
 function Floor() {
   const textureProps = useTexture({
-    map: 'texture/floor/color.jpg',
-    normalMap: 'texture/floor/normal.jpg',
-    roughnessMap: 'texture/floor/roughness.jpg',
-    aoMap: 'texture/floor/ambientOcclusion.jpg',
-    displacementMap: 'texture/floor/height.png',
+    map: 'textures/floor/color.jpg',
+    normalMap: 'textures/floor/normal.jpg',
+    roughnessMap: 'textures/floor/roughness.jpg',
+    aoMap: 'textures/floor/ambientOcclusion.jpg',
+    displacementMap: 'textures/floor/height.png',
   })
 
   useLayoutEffect(() => {
