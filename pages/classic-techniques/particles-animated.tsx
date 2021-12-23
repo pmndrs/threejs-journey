@@ -1,13 +1,15 @@
 import Head from "next/head"
-import { ParticlesAnimatedExample } from "../../examples/classic-techniques/ParticlesAnimated/ParticlesAnimated"
+import { SandboxPreview } from "../../components/SandboxPreview/SandboxPreview"
+
+const title = 'Classic Techniques - ParticlesAnimated'
 
 const ParticlesAnimatedPage = () => {
     return (
         <>
             <Head>
-                <title>Classic Techniques - Particles Animated</title>
+                <title>{title}</title>
             </Head>
-            <ParticlesAnimatedExample/>
+            <SandboxPreview title={title} exampleDir="classic-techniques/ParticlesAnimated" />
         </>
     )
 }
