@@ -13,8 +13,8 @@ function Graves() {
   })
 
   const textureProps = useTexture({
-    map: 'textures/grave/color.jpg',
-    roughnessMap: 'textures/grave/roughness.jpg',
+    map: 'texture/grave/color.jpg',
+    roughnessMap: 'texture/grave/roughness.jpg',
   })
 
   return (
