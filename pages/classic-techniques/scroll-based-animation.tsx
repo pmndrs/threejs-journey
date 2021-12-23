@@ -1,13 +1,15 @@
 import Head from "next/head"
-import { ScrollBasedAnimationExample } from "../../examples/classic-techniques/ScrollBasedAnimation/ScrollBasedAnimation"
+import { SandboxPreview } from "../../components/SandboxPreview/SandboxPreview"
+
+const title = 'Classic Techniques - ScrollBasedAnimation'
 
 const ScrollBasedAnimationPage = () => {
     return (
         <>
             <Head>
-                <title>Classic Techniques - Scroll Based Animation</title>
+                <title>{title}</title>
             </Head>
-            <ScrollBasedAnimationExample />
+            <SandboxPreview title={title} exampleDir="classic-techniques/ScrollBasedAnimation" />
         </>
     )
 }

@@ -28,7 +28,7 @@ function ScrollBasedAnimation() {
   )
 }
 
-function ScrollBasedAnimationExample() {
+function App() {
     return (
         <Canvas className={styles.canvas}>
         <ambientLight />
@@ -40,4 +40,4 @@ function ScrollBasedAnimationExample() {
     )
 }
 
-export {ScrollBasedAnimationExample}  
+export default App
