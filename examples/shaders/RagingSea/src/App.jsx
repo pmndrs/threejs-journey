@@ -137,17 +137,17 @@ RagingSeaMaterial.key = Math.random()
 
 extend({ RagingSeaMaterial })
 
-function RagingSeaExample() {
-    return (
-      <Canvas shadows dpr={[1, 2]} camera={{ position: [0, 3, 8] }}>
-        <Suspense fallback={null}>
-            <RagingSea />
-            <color attach="background" args={['#141852']} />
-            <OrbitControls maxPolarAngle={Math.PI * 0.4} minDistance={5} maxDistance={10} enablePan={false} makeDefault />
-            <Stars radius={100} depth={50} count={10000} factor={4} saturation={10} fade />
-        </Suspense>
-      </Canvas>
-    )
-  }
-  
-export { RagingSeaExample }
+function App() {
+  return (
+    <Canvas shadows dpr={[1, 2]} camera={{ position: [0, 3, 8] }}>
+      <Suspense fallback={null}>
+          <RagingSea />
+          <color attach="background" args={['#141852']} />
+          <OrbitControls maxPolarAngle={Math.PI * 0.4} minDistance={5} maxDistance={10} enablePan={false} makeDefault />
+          <Stars radius={100} depth={50} count={10000} factor={4} saturation={10} fade />
+      </Suspense>
+    </Canvas>
+  )
+}
+
+export default App

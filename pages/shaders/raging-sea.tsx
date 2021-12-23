@@ -1,13 +1,15 @@
 import Head from "next/head"
-import { RagingSeaExample } from "../../examples/shaders/RagingSea/RagingSea"
+import { SandboxPreview } from "../../components/SandboxPreview/SandboxPreview"
+
+const title = 'Shaders - Raging Sea'
 
 const RagingSeaPage = () => {
     return (
         <>
             <Head>
-                <title>Shaders - Raging Sea</title>
+                <title>{title}</title>
             </Head>
-            <RagingSeaExample />
+            <SandboxPreview title={title} exampleDir="shaders/RagingSea" />
         </>
     )
 }
