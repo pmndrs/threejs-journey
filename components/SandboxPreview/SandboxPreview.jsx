@@ -1,6 +1,6 @@
 function SandboxPreview({title, exampleDir}) {
     return  <iframe
-    src={`${process.env.NEXT_PUBLIC_CODESANDBOX_EXAMPLES_PATH}/${exampleDir}?view=preview&hidenavigation=1&module=/src/App.jsx`}
+    src={`https://codesandbox.io/embed/github/pmndrs/threejs-journey/tree/main/examples/${exampleDir}?view=preview&hidenavigation=1&module=/src/App.jsx`}
     style={{
       position: "fixed",
       left: 0,
