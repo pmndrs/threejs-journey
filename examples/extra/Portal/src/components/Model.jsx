@@ -11,8 +11,8 @@ import '../shaders/PortalMaterial'
 
 export default function Model(props) {
   const portalMaterial = useRef()
-  const bakedTexture = useTexture('/extra/portal/baked-02.jpeg')
-  const { nodes } = useGLTF('/extra/portal/portal-2.glb')
+  const bakedTexture = useTexture('/baked-02.jpeg')
+  const { nodes } = useGLTF('/portal-2.glb')
   useFrame((state, delta) => (portalMaterial.current.time += delta))
   return (
     <group {...props} dispose={null}>

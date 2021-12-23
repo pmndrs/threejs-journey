@@ -4,7 +4,7 @@ import { Canvas } from '@react-three/fiber'
 import Model from './components/Model'
 import Fireflies from './components/Fireflies'
 
-function PortalExample() {
+function App() {
   return (
     <Canvas dpr={[1, 2]} camera={{ fov: 45, position: [-4, 2, -4] }}>
       <Suspense fallback={null}>
@@ -17,4 +17,4 @@ function PortalExample() {
   )
 }
 
-export {PortalExample}
+export default App
