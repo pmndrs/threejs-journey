@@ -1,13 +1,15 @@
 import Head from "next/head"
-import { Text3DExample } from "../../examples/basics/Text3D/Text3D"
+import { SandboxPreview } from "../../components/SandboxPreview/SandboxPreview"
+
+const title = 'Basics - Text3D'
 
 const Text3DPage = () => {
     return (
         <>
             <Head>
-                <title>Basics - Text 3D</title>
+                <title>{title}</title>
             </Head>
-            <Text3DExample/>
+            <SandboxPreview title={title} exampleDir="basics/Text3D" />
         </>
     )
 }

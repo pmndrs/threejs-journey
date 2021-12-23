@@ -1,13 +1,15 @@
 import Head from "next/head"
-import { ShaderPatternsExample } from "../../examples/shaders/ShaderPatterns/ShaderPatterns"
+import { SandboxPreview } from "../../components/SandboxPreview/SandboxPreview"
+
+const title = 'Shaders - Patterns'
 
 const ShaderPatternsPage = () => {
     return (
         <>
             <Head>
-                <title>Shaders - Shader Patterns</title>
+                <title>{title}</title>
             </Head>
-            <ShaderPatternsExample />
+            <SandboxPreview title={title} exampleDir="shaders/ShaderPatterns" />
         </>
     )
 }

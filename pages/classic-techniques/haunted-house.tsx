@@ -1,15 +1,17 @@
 import Head from "next/head"
-import { HauntedHouseExample } from "../../examples/classic-techniques/HauntedHouse/HauntedHouse"
+import { SandboxPreview } from "../../components/SandboxPreview/SandboxPreview"
 
-const hauntedHousePage = () => {
+const title = 'Classic Techniques - HauntedHouse'
+
+const HauntedHousePage = () => {
     return (
         <>
             <Head>
-                <title>Classic Techniques - Haunted House</title>
+                <title>{title}</title>
             </Head>
-            <HauntedHouseExample/>
+            <SandboxPreview title={title} exampleDir="classic-techniques/HauntedHouse" />
         </>
     )
 }
 
-export default hauntedHousePage
+export default HauntedHousePage
