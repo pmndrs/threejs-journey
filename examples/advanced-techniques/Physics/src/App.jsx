@@ -1,7 +1,7 @@
 import { OrbitControls, Stage } from '@react-three/drei'
 import { Canvas } from '@react-three/fiber'
 import React, { Suspense } from 'react'
-import { Scene } from './src/components/Scene'
+import { Scene } from './components/Scene'
 
 function App() {
   return (

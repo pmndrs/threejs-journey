@@ -9,7 +9,7 @@ const PhysicsPage = () => {
             <Head>
                 <title>{title}</title>
             </Head>
-            <SandboxPreview title={title} exampleDir="classic-techniques/Physics" />
+            <SandboxPreview title={title} exampleDir="advanced-techniques/Physics" />
         </>
     )
 }
