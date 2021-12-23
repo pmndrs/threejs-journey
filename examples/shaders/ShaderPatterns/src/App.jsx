@@ -65,14 +65,14 @@ function ShaderPreview({ label, Shader }) {
   )
 }
 
-function ShaderPatternsExample() {
-    return (
-      <Canvas className={styles.canvas}>
-        <Suspense fallback={null}>
-          <Scene />
-        </Suspense>
-      </Canvas>
-    )
-  }
+function App() {
+  return (
+    <Canvas className={styles.canvas}>
+      <Suspense fallback={null}>
+        <Scene />
+      </Suspense>
+    </Canvas>
+  )
+}
 
-export { ShaderPatternsExample }
+export default App
