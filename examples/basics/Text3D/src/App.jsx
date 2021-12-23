@@ -28,7 +28,7 @@ function HelloText() {
   )
 }
 
-function Text3DExample() {
+function App() {
   return (
     <Canvas
       camera={{
@@ -44,4 +44,4 @@ function Text3DExample() {
   )
 }
 
-export {Text3DExample}
+export default App
