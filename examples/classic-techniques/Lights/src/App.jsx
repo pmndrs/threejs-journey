@@ -38,7 +38,7 @@ function Light() {
   )
 }
 
-function LightsExample() {
+function App() {
   return (
     <Canvas shadows>
       <OrbitControls makeDefault />
@@ -50,4 +50,4 @@ function LightsExample() {
   )
 }
 
-export {LightsExample}
+export default App
