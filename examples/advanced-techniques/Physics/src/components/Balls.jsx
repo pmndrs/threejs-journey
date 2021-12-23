@@ -37,7 +37,6 @@ function Balls() {
 }
 
 function Ball({ position = [0, 1, 0], color, radius }) {
-  // TODO: Move sound file to relative folder instead of `public`
   const knockSound = useMemo(() => new Audio('/sounds/knock.wav'), [])
 
   function playAudio(collision) {

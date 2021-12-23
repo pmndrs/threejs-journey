@@ -12,7 +12,6 @@ function HelloText() {
 
   const ref = useRef()
 
-  // TODO: Move typeface to relative `Text3D` folder instead of `public`
   const font = useLoader(FontLoader, '/typefaces/optimer_bold.typeface.json')
   const config = useMemo(() => ({ font, size: 5, height: 2 }), [font])
 
