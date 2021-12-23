@@ -24,7 +24,7 @@ function Model() {
   )
 }
 
-function MaterialsExample() {
+function App() {
   return (
     <Canvas shadows dpr={[1, 2]}>
       <OrbitControls makeDefault />
@@ -37,4 +37,4 @@ function MaterialsExample() {
   )
 }
 
-export { MaterialsExample }
+export default App
