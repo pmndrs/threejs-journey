@@ -1,9 +1,9 @@
 import { OrbitControls, Stage } from '@react-three/drei'
 import { Canvas } from '@react-three/fiber'
 import React, { Suspense } from 'react'
-import { Scene } from './components/Scene'
+import { Scene } from './src/components/Scene'
 
-function PhysicsExample() {
+function App() {
   return (
     <Canvas shadows>
       <OrbitControls />
@@ -14,6 +14,6 @@ function PhysicsExample() {
       </Suspense>
     </Canvas>
   )
-}
 
-export {PhysicsExample}
+}
+export default App

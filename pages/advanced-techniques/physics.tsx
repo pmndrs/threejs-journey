@@ -1,14 +1,16 @@
 import Head from "next/head"
-import { PhysicsExample } from "../../examples/advanced-techniques/Physics/Physics"
+import { SandboxPreview } from "../../components/SandboxPreview/SandboxPreview"
+
+const title = 'Advanced Techniques - Physics'
 
 const PhysicsPage = () => {
     return (
-    <>
-        <Head>
-            <title>Advanced Techniques - Physics</title>
-        </Head>
-        <PhysicsExample/>
-    </>
+        <>
+            <Head>
+                <title>{title}</title>
+            </Head>
+            <SandboxPreview title={title} exampleDir="classic-techniques/Physics" />
+        </>
     )
 }
 
