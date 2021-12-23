@@ -1,13 +1,15 @@
 import Head from "next/head"
-import { GalaxyGeneratorExample } from "../../examples/classic-techniques/GalaxyGenerator/GalaxyGenerator"
+import { SandboxPreview } from "../../components/SandboxPreview/SandboxPreview"
+
+const title = 'Classic Techniques - Galaxy Generator'
 
 const GalaxyGeneratorPage = () => {
     return (
         <>
             <Head>
-                <title>Classic Techniques - Galaxy Generator</title>
+                <title>{title}</title>
             </Head>
-            <GalaxyGeneratorExample/>
+            <SandboxPreview title={title} exampleDir="classic-techniques/GalaxyGenerator" />
         </>
     )
 }

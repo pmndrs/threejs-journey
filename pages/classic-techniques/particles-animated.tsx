@@ -1,7 +1,7 @@
 import Head from "next/head"
 import { SandboxPreview } from "../../components/SandboxPreview/SandboxPreview"
 
-const title = 'Classic Techniques - ParticlesAnimated'
+const title = 'Classic Techniques - Particles Animated'
 
 const ParticlesAnimatedPage = () => {
     return (

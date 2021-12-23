@@ -5,34 +5,20 @@ import * as THREE from 'three'
 import colors from 'nice-color-palettes'
 import { Canvas, useFrame } from '@react-three/fiber'
 
-import texture1 from './assets/1.png'
-import texture2 from './assets/2.png'
-import texture3 from './assets/3.png'
-import texture4 from './assets/4.png'
-import texture5 from './assets/5.png'
-import texture6 from './assets/6.png'
-import texture7 from './assets/7.png'
-import texture8 from './assets/8.png'
-import texture9 from './assets/9.png'
-import texture10 from './assets/10.png'
-import texture11 from './assets/11.png'
-import texture12 from './assets/12.png'
-import texture13 from './assets/13.png'
-
 const particleTextures = [
-    texture1.src,
-    texture2.src,
-    texture3.src,
-    texture4.src,
-    texture5.src,
-    texture6.src,
-    texture7.src,
-    texture8.src,
-    texture9.src,
-    texture10.src,
-    texture11.src,
-    texture12.src,
-    texture13.src
+  'texture/1.png',
+  'texture/2.png',
+  'texture/3.png',
+  'texture/4.png',
+  'texture/5.png',
+  'texture/6.png',
+  'texture/7.png',
+  'texture/8.png',
+  'texture/9.png',
+  'texture/10.png',
+  'texture/11.png',
+  'texture/12.png',
+  'texture/13.png',
 ]
 
 const palette = colors[Math.floor(Math.random() * colors.length)]
@@ -151,18 +137,17 @@ function Galaxy() {
   )
 }
 
-function GalaxyGeneratorExample() {
-    return (
-      <Canvas>
-        <color attach="background" args={['black']} />
-        <OrbitControls makeDefault />
-        <ambientLight />
-        <Suspense fallback={null}>
-          <Galaxy />
-        </Suspense>
-    </Canvas>
-    )
-  }
-  
+function App() {
+  return (
+    <Canvas>
+      <color attach="background" args={['black']} />
+      <OrbitControls makeDefault />
+      <ambientLight />
+      <Suspense fallback={null}>
+        <Galaxy />
+      </Suspense>
+  </Canvas>
+  )
+}
 
-export { GalaxyGeneratorExample }
+export default App
