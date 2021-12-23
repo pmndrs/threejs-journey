@@ -6,19 +6,19 @@ import colors from 'nice-color-palettes'
 import { Canvas, useFrame } from '@react-three/fiber'
 
 const particleTextures = [
-  'texture/1.png',
-  'texture/2.png',
-  'texture/3.png',
-  'texture/4.png',
-  'texture/5.png',
-  'texture/6.png',
-  'texture/7.png',
-  'texture/8.png',
-  'texture/9.png',
-  'texture/10.png',
-  'texture/11.png',
-  'texture/12.png',
-  'texture/13.png',
+  'textures/1.png',
+  'textures/2.png',
+  'textures/3.png',
+  'textures/4.png',
+  'textures/5.png',
+  'textures/6.png',
+  'textures/7.png',
+  'textures/8.png',
+  'textures/9.png',
+  'textures/10.png',
+  'textures/11.png',
+  'textures/12.png',
+  'textures/13.png',
 ]
 
 const palette = colors[Math.floor(Math.random() * colors.length)]
