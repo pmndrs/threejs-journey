@@ -45,7 +45,7 @@ function RayCaster() {
   )
 }
 
-function RayCasterExample() {
+function App() {
     return (
         <Canvas>
         <color attach="background" args={['black']} />
@@ -58,4 +58,4 @@ function RayCasterExample() {
     )
 }
 
-export { RayCasterExample }
+export default App

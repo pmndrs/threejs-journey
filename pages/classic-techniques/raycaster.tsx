@@ -1,13 +1,15 @@
 import Head from "next/head"
-import { RayCasterExample } from "../../examples/classic-techniques/RayCaster/RayCaster"
+import { SandboxPreview } from "../../components/SandboxPreview/SandboxPreview"
+
+const title = 'Classic Techniques - RayCaster'
 
 const RayCasterPage = () => {
     return (
         <>
             <Head>
-                <title>Classic Techniques - Raycaster</title>
+                <title>{title}</title>
             </Head>
-            <RayCasterExample/>
+            <SandboxPreview title={title} exampleDir="classic-techniques/RayCaster" />
         </>
     )
 }
