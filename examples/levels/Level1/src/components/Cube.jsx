@@ -3,8 +3,8 @@ import { useGLTF, useTexture } from '@react-three/drei'
 import { useSpring, a } from '@react-spring/three'
 
 export default function Cube() {
-  const { nodes } = useGLTF('/levels/level1/level.glb')
-  const matcap = useTexture('/levels/level1/pink.jpg')
+  const { nodes } = useGLTF('/level.glb')
+  const matcap = useTexture('/pink.jpg')
   const [floating, setFloating] = useState(false)
   const [rotation, setRotation] = useState([0, 0, 0])
   const positionSpring = useSpring({ position: [0, floating ? 0.2 : 0, 0], config: { friction: 80 } })

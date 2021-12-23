@@ -3,7 +3,7 @@ import { useGLTF } from '@react-three/drei'
 import { useSpring } from '@react-spring/three'
 
 export default function Level() {
-  const { nodes } = useGLTF('/levels/level1/level.glb')
+  const { nodes } = useGLTF('/level.glb')
   const { camera } = useThree()
   useSpring(
     () => ({

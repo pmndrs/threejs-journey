@@ -3,8 +3,8 @@ import { useGLTF, useTexture } from '@react-three/drei'
 import { useSpring, a } from '@react-spring/three'
 
 export default function Pyramid() {
-  const { nodes } = useGLTF('/levels/level1/level.glb')
-  const matcap = useTexture('/levels/level1/cyan.jpg')
+  const { nodes } = useGLTF('/level.glb')
+  const matcap = useTexture('/cyan.jpg')
   const [spring, api] = useSpring(() => ({ rotation: [0, 0, 0], config: { friction: 80 } }), [])
   useEffect(() => {
     let timeout

@@ -8,7 +8,7 @@ import Cactus from './components/Cactus'
 import Cube from './components/Cube'
 import Pyramid from './components/Pyramid'
 
-function Level1Example() {
+function App() {
   return (
     <Canvas flat dpr={[1, 2]} camera={{ fov: 25, position: [0, 0, 8] }}>
       <color attach="background" args={['#e0b7ff']} />
@@ -29,4 +29,4 @@ function Level1Example() {
   )
 }
 
-export {Level1Example}
+export default App
