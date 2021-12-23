@@ -1,13 +1,15 @@
 import Head from "next/head"
-import { TexturesExample } from "../../examples/basics/Textures/Textures"
+import { SandboxPreview } from "../../components/SandboxPreview/SandboxPreview"
+
+const title = 'Basics - Textures'
 
 const TexturesPage = () => {
     return (
         <>
             <Head>
-                <title>Basics - Textures</title>
+                <title>{title}</title>
             </Head>
-            <TexturesExample/>
+            <SandboxPreview title={title} exampleDir="basics/Textures" />
         </>
     )
 }

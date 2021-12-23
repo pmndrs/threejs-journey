@@ -28,7 +28,7 @@ function Box() {
   )
 }
 
-function TexturesExample() {
+function App() {
   return (
     <Canvas shadows dpr={[1, 2]}>
       <OrbitControls makeDefault autoRotate />
@@ -41,4 +41,4 @@ function TexturesExample() {
   )
 }
 
-export {TexturesExample}
+export default App
