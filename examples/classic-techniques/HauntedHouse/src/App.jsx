@@ -3,7 +3,7 @@ import { Stats } from '@react-three/drei'
 import React, { Suspense } from 'react'
 import { Fog, HauntedHouse, Lights, Controls } from './components'
 
-function HauntedHouseExample() {
+function App() {
   return (
     <Canvas
       mode="concurrent"
@@ -22,4 +22,4 @@ function HauntedHouseExample() {
   )
 }
 
-export {HauntedHouseExample}
+export default App

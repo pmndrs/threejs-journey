@@ -1,8 +1,6 @@
 import { Instance, Instances, useTexture } from '@react-three/drei'
 import { useControls } from 'leva'
 import React, { useMemo } from 'react'
-import map from '../assets/grave/color.jpg'
-import roughnessMap from '../assets/grave/roughness.jpg'
 
 function Graves() {
   const { size, minRadius } = useControls('graves', {
@@ -15,8 +13,8 @@ function Graves() {
   })
 
   const textureProps = useTexture({
-    map: map.src,
-    roughnessMap: roughnessMap.src,
+    map: 'textures/grave/color.jpg',
+    roughnessMap: 'textures/grave/roughness.jpg',
   })
 
   return (
