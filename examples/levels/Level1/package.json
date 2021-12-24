@@ -1,5 +1,6 @@
 {
   "name": "r3f-journey-levels-level-1",
+  "description": "Level 1 model from Three.js Journey course implemented with react-three-fiber",
   "main": "src/index.jsx",
   "keywords": [
     "react",
