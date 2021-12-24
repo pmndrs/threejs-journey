@@ -1,5 +1,6 @@
 {
   "name": "r3f-journey-classic-techniques-scroll-based-animation",
+  "description": "Scroll based animation example from Three.js Journey course implemented with react-three-fiber",
   "main": "src/index.jsx",
   "keywords": [
     "react",

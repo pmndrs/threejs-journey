@@ -1,14 +1,13 @@
 import Head from "next/head"
 import { SandboxPreview } from "../../components/SandboxPreview/SandboxPreview"
+import { SEO } from "../../components/SEO/SEO"
 
 const title = 'Basics - Materials'
 
 const MaterialsPage = () => {
     return (
         <>
-            <Head>
-                <title>{title}</title>
-            </Head>
+            <SEO title={title} description="Materials example from Three.js Journey course implemented with react-three-fiber" image="/thumbnails/basics/material.png" />
             <SandboxPreview title={title} exampleDir="basics/Materials" />
         </>
     )
