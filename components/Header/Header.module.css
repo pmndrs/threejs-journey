@@ -1,5 +1,6 @@
 .header {
     margin: 0 auto;
+    margin-bottom: 48px;
     padding-inline: 2vw;
     text-align: center;
     display: flex;
