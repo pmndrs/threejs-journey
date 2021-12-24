@@ -4,20 +4,20 @@
     padding-block: 12px;
 }
 
+.example-row {
+    margin-bottom: 78px;
+}
 
 .example-row__title {
     text-decoration: none;
+    font-size: 2.25em;
+    margin-bottom: 26px;
 }
 
 .example-row__list {
     list-style: none;
     display: flex;
-    gap: 16px;
+    gap: 32px;
     flex-wrap: wrap;
     padding: 0;
-}
-
-.example-card a {
-    text-decoration: none;
-    color: black;
 }
