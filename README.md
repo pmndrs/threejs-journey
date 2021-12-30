@@ -1,7 +1,7 @@
 <img src="/stage1.png" alt="Stage 1" />
 
-This project is a community driven collection of lesson-examples from Bruno Simons [threejs-journey](https://threejs-journey.com) ported to [React](https://github.com/pmndrs/react-three-fiber). Threejs-journey is one of the best resources available for learning Threejs and we encourage everyone to buy it! 
+A community driven collection of lesson-examples from Bruno Simons [threejs-journey](https://threejs-journey.com) ported to [React](https://github.com/pmndrs/react-three-fiber). Threejs-journey is one of the best resources available for learning Threejs and we encourage everyone to buy it! 
 
-We believe this project will ease the learning curve for both Threejs devs and React devs since we're moving from OOP to components. This will introduce order and clean separation, and has a larger impact in reducing code. As a React dev learning Threejs you will progress much quicker that way since each thing is a separate unit that can be studied as such.
+The goal is to ease the learning curve for Threejs by moving from OOP to components, which reduce code and encourage clean separation. You will progress much quicker that way since each primitive is a separate unit that can be studied as such, as opposed to something that is connected to practically everything else across the entire project.
 
-The focus is entirely on structural patterns and the experience, these examples are reduced and will use eco-system spare parts where possible.
+At the moment the focus is on structural patterns and the experience, these examples are reduced and will use eco-system spare parts where possible.
