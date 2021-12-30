@@ -20,7 +20,12 @@ export function ExampleCard({ link, thumbnail, title, lessonNumber }: ExampleCar
         </h3>
 
         <Link href={link}>
-          <a className={styles['card__sandbox-link']}>Open sandbox</a>
+          <a 
+            className={styles['card__sandbox-link']}
+            target="_blank"
+            rel="noreferrer">
+            Open sandbox
+          </a>
         </Link>
         {lessonNumber && (
           <a
