@@ -28,16 +28,14 @@ function ScrollBasedAnimation() {
   )
 }
 
-function App() {
-    return (
-        <Canvas className={styles.canvas}>
-        <ambientLight />
-        <directionalLight color="red" intensity={10} />
-        <Suspense fallback={null}>
-            <ScrollBasedAnimation />
-        </Suspense>
-        </Canvas>
-    )
+export default function App() {
+  return (
+    <Canvas dpr={[1, 2]} className={styles.canvas}>
+      <ambientLight />
+      <directionalLight color="red" intensity={10} />
+      <Suspense fallback={null}>
+        <ScrollBasedAnimation />
+      </Suspense>
+    </Canvas>
+  )
 }
-
-export default App

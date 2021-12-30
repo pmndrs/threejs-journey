@@ -2,7 +2,7 @@ import { useFrame } from '@react-three/fiber'
 import { useControls } from 'leva'
 import React, { useRef } from 'react'
 
-function Ghosts() {
+export function Ghosts() {
   const firstGhost = useRef()
   const secondGhost = useRef()
   const thirdGhost = useRef()
@@ -10,7 +10,7 @@ function Ghosts() {
   const { firstColor, secondColor, thirdColor } = useControls('ghosts', {
     firstColor: '#ff00ff',
     secondColor: '#00ffff',
-    thirdColor: '#ffff00'
+    thirdColor: '#ffff00',
   })
 
   useFrame(({ clock }) => {
@@ -39,5 +39,3 @@ function Ghosts() {
     </>
   )
 }
-
-export { Ghosts }

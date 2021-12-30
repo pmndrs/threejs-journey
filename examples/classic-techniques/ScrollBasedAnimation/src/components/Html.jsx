@@ -1,13 +1,14 @@
 import React from 'react'
 
-function Html() {
+export function Html() {
   return (
-    <div style={{
+    <div
+      style={{
         background: 'white',
         fontFamily: 'sans-serif',
         fontSize: 'min(12vw, 86px)',
         lineHeight: 0.75,
-    }}>
+      }}>
       <h1
         style={{
           position: 'absolute',
@@ -15,7 +16,7 @@ function Html() {
           left: '50vw',
           transform: 'translateX(-50%)',
           color: '#292828',
-          margin: 0
+          margin: 0,
         }}>
         hello.
       </h1>
@@ -26,7 +27,7 @@ function Html() {
           left: '50vw',
           transform: 'translateX(-65%)',
           color: '#f4b677',
-          margin: 0
+          margin: 0,
         }}>
         Your Future
       </h1>
@@ -37,12 +38,10 @@ function Html() {
           left: '50vw',
           transform: 'translateX(-50%)',
           color: '#673ab7',
-          margin: 0
+          margin: 0,
         }}>
         Awaits
       </h1>
     </div>
   )
 }
-
-export { Html }

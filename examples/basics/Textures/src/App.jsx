@@ -6,7 +6,6 @@ import * as THREE from 'three'
 
 function Box() {
   const { args1 } = useControls({ args1: [1, 32, 32] })
-
   const textureProps = useTexture({
     map: 'texture/color.jpg',
     displacementMap: 'texture/displacement.jpg',
@@ -14,21 +13,14 @@ function Box() {
     normalMap: 'texture/normal.jpg',
     roughnessMap: 'texture/roughness.jpg',
   })
-
-  useEffect(() => {
-    if (textureProps) {
-      textureProps.map.magFilter = THREE.NearestFilter
-    }
-  }, [textureProps])
-
   return (
     <Sphere args={[...args1]}>
-      <meshPhysicalMaterial {...textureProps} displacementScale={0.5} />
+      <meshPhysicalMaterial {...textureProps} map-magFilter={THREE.NearestFilter} displacementScale={0.5} />
     </Sphere>
   )
 }
 
-function App() {
+export default function App() {
   return (
     <Canvas shadows dpr={[1, 2]}>
       <OrbitControls makeDefault autoRotate />
@@ -40,5 +32,3 @@ function App() {
     </Canvas>
   )
 }
-
-export default App

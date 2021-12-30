@@ -25,9 +25,8 @@ function Light() {
     distance: 10,
     angle: Math.PI / 4,
     penumbra: 0.5,
-    decay: 0.5
+    decay: 0.5,
   })
-
   const mainLightRef = useRef()
   useHelper(mainLightRef, THREE.SpotLightHelper, 'red')
   return (
@@ -38,9 +37,9 @@ function Light() {
   )
 }
 
-function App() {
+export default function App() {
   return (
-    <Canvas shadows>
+    <Canvas shadows dpr={[1, 2]}>
       <OrbitControls makeDefault />
       <Light />
       <Suspense fallback={null}>
@@ -49,5 +48,3 @@ function App() {
     </Canvas>
   )
 }
-
-export default App

@@ -24,58 +24,17 @@ const particleTextures = [
 const palette = colors[Math.floor(Math.random() * colors.length)]
 
 const controls = {
-  textureType: {
-    value: 0,
-    min: 0,
-    max: 12,
-    step: 1
-  },
-  count: {
-    value: 4500,
-    min: 1,
-    max: 10000
-  },
-  size: {
-    value: 0.5,
-    min: 0.1,
-    max: 20
-  },
-  radius: {
-    value: 25,
-    min: 1,
-    max: 100
-  },
-  branches: {
-    value: 5,
-    min: 1,
-    max: 20,
-    step: 1
-  },
-  spin: {
-    value: 0.5,
-    min: -3,
-    max: 3,
-    step: 0.0001
-  },
-  randomness: {
-    value: 0.1,
-    min: 0,
-    max: 1,
-    step: 0.0001
-  },
-  randomnessPower: {
-    value: 8,
-    min: 1,
-    max: 10,
-    step: 0.0001
-  },
-  rotationSpeed: {
-    value: 0.2,
-    min: 0,
-    max: 5
-  },
+  textureType: { value: 0, min: 0, max: 12, step: 1 },
+  count: { value: 4500, min: 1, max: 10000 },
+  size: { value: 0.5, min: 0.1, max: 20 },
+  radius: { value: 25, min: 1, max: 100 },
+  branches: { value: 5, min: 1, max: 20, step: 1 },
+  spin: { value: 0.5, min: -3, max: 3, step: 0.0001 },
+  randomness: { value: 0.1, min: 0, max: 1, step: 0.0001 },
+  randomnessPower: { value: 8, min: 1, max: 10, step: 0.0001 },
+  rotationSpeed: { value: 0.2, min: 0, max: 5 },
   insideColor: palette[0],
-  outsideColor: palette[1 + Math.floor(Math.random() * (palette.length - 2))]
+  outsideColor: palette[1 + Math.floor(Math.random() * (palette.length - 2))],
 }
 
 function Galaxy() {
@@ -90,18 +49,11 @@ function Galaxy() {
     randomnessPower,
     rotationSpeed,
     insideColor,
-    outsideColor
+    outsideColor,
   } = useControls(controls)
-  const particleTexture = useTexture(particleTextures[textureType])
-
   const particlesRef = useRef()
-
-  useFrame(({ clock }) => {
-    const elapsedTime = clock.getElapsedTime()
-
-    particlesRef.current.rotation.y = elapsedTime * rotationSpeed
-  })
-
+  const particleTexture = useTexture(particleTextures[textureType])
+  useFrame((state) => (particlesRef.current.rotation.y = state.clock.getElapsedTime() * rotationSpeed))
   return (
     <Points ref={particlesRef} limit={10000}>
       <pointsMaterial
@@ -115,39 +67,29 @@ function Galaxy() {
         alphaMap={particleTexture}
       />
       {Array.from({ length: count }).map((_, i) => {
-        const pointRadius = Math.random() * radius
-        const spinAngle = pointRadius * spin
-        const branchAngle = ((i % branches) / branches) * Math.PI * 2
-
-        const randomX = Math.pow(Math.random(), randomnessPower) * (Math.random() > 0.5 ? 1 : -1) * randomness * radius
-        const randomY = Math.pow(Math.random(), randomnessPower) * (Math.random() > 0.5 ? 1 : -1) * randomness * radius
-        const randomZ = Math.pow(Math.random(), randomnessPower) * (Math.random() > 0.5 ? 1 : -1) * randomness * radius
-
-        const position = [
-          Math.cos(branchAngle + spinAngle) * pointRadius + randomX,
-          randomY,
-          Math.sin(branchAngle + spinAngle) * pointRadius + randomZ
-        ]
-
-        const color = new THREE.Color(insideColor).lerp(new THREE.Color(outsideColor), pointRadius / radius)
-
+        const pRadius = Math.random() * radius
+        const sAngle = pRadius * spin
+        const bAngle = ((i % branches) / branches) * Math.PI * 2
+        const rndX = Math.pow(Math.random(), randomnessPower) * (Math.random() > 0.5 ? 1 : -1) * randomness * radius
+        const rndY = Math.pow(Math.random(), randomnessPower) * (Math.random() > 0.5 ? 1 : -1) * randomness * radius
+        const rndZ = Math.pow(Math.random(), randomnessPower) * (Math.random() > 0.5 ? 1 : -1) * randomness * radius
+        const position = [Math.cos(bAngle + sAngle) * pRadius + rndX, rndY, Math.sin(bAngle + sAngle) * pRadius + rndZ]
+        const color = new THREE.Color(insideColor).lerp(new THREE.Color(outsideColor), pRadius / radius)
         return <Point key={i} position={position} color={color} />
       })}
     </Points>
   )
 }
 
-function App() {
+export default function App() {
   return (
-    <Canvas>
+    <Canvas dpr={[1, 2]}>
       <color attach="background" args={['black']} />
       <OrbitControls makeDefault />
       <ambientLight />
       <Suspense fallback={null}>
         <Galaxy />
       </Suspense>
-  </Canvas>
+    </Canvas>
   )
 }
-
-export default App

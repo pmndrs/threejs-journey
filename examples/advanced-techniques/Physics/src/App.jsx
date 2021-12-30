@@ -3,9 +3,9 @@ import { Canvas } from '@react-three/fiber'
 import React, { Suspense } from 'react'
 import { Scene } from './components/Scene'
 
-function App() {
+export default function App() {
   return (
-    <Canvas shadows>
+    <Canvas dpr={[1, 2]} shadows>
       <OrbitControls />
       <Suspense fallback={null}>
         <Stage>
@@ -14,6 +14,4 @@ function App() {
       </Suspense>
     </Canvas>
   )
-
 }
-export default App

@@ -6,7 +6,11 @@ import { SEO } from '../components/SEO/SEO'
 const Home = () => {
   return (
     <div>
-      <SEO title="Home" description="Three.js Journey excersices implemented using react-three-fiber." image="/thumbnails/three.js journey.png" />
+      <SEO
+        title="Home"
+        description="Three.js Journey excersices implemented using react-three-fiber."
+        image="/thumbnails/three.js journey.png"
+      />
       <Header />
       <main>
         <ExamplesList />

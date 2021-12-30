@@ -4,7 +4,7 @@ import { Canvas } from '@react-three/fiber'
 import Model from './components/Model'
 import Fireflies from './components/Fireflies'
 
-function App() {
+export default function App() {
   return (
     <Canvas dpr={[1, 2]} camera={{ fov: 45, position: [-4, 2, -4] }}>
       <Suspense fallback={null}>
@@ -16,5 +16,3 @@ function App() {
     </Canvas>
   )
 }
-
-export default App

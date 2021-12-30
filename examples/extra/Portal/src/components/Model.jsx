@@ -19,8 +19,18 @@ export default function Model(props) {
       <mesh geometry={nodes.portalCircle.geometry} position={[0, 0.78, 1.6]} rotation={[-Math.PI / 2, 0, 0]}>
         <portalMaterial ref={portalMaterial} blending={THREE.AdditiveBlending} colorStart="pink" colorEnd="white" />
       </mesh>
-      <mesh geometry={nodes.lampLightL.geometry} material-color="#f0bf94" position={[0.89, 1.07, -0.14]} scale={[0.07, 0.11, 0.07]} />
-      <mesh geometry={nodes.lampLightR.geometry} material-color="#f0bf94" position={[-0.98, 1.07, -0.14]} scale={[-0.07, 0.11, 0.07]} />
+      <mesh
+        geometry={nodes.lampLightL.geometry}
+        material-color="#f0bf94"
+        position={[0.89, 1.07, -0.14]}
+        scale={[0.07, 0.11, 0.07]}
+      />
+      <mesh
+        geometry={nodes.lampLightR.geometry}
+        material-color="#f0bf94"
+        position={[-0.98, 1.07, -0.14]}
+        scale={[-0.07, 0.11, 0.07]}
+      />
       <mesh geometry={nodes.baked.geometry} position={[0.9, 0.34, -1.47]} rotation={[0, 0.14, 0]}>
         <meshBasicMaterial map={bakedTexture} map-flipY={false} />
       </mesh>
