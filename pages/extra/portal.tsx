@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import { SandboxPreview } from '../../components/SandboxPreview/SandboxPreview'
 import { SEO } from '../../components/SEO/SEO'
 
