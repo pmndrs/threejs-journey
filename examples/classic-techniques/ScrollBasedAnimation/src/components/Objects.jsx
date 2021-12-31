@@ -3,7 +3,7 @@ import { useFrame, useThree } from '@react-three/fiber'
 import React, { useMemo, useRef } from 'react'
 import * as THREE from 'three'
 
-export default function Objects() {
+function Objects() {
   const { height, width } = useThree((state) => state.viewport)
   return (
     <>
@@ -46,3 +46,5 @@ function Item({ color, position, children }) {
     </mesh>
   )
 }
+
+export { Objects }
