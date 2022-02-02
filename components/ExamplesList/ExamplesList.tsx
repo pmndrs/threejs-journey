@@ -109,6 +109,12 @@ export function ExamplesList() {
           title="Animated Galaxy"
           lessonNumber={30}
         />
+        <ExampleCard
+          link="/shaders/modified-material"
+          thumbnail="/thumbnails/shaders/modified-material.png"
+          title="Modified Material"
+          lessonNumber={31}
+        />
       </ExamplesRow>
       <ExamplesRow title="Extra">
         <ExampleCard link="/extra/portal" thumbnail="/thumbnails/extra/portal.png" title="Portal" lessonNumber={39} />
