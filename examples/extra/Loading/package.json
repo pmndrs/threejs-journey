@@ -1,0 +1,29 @@
+{
+  "name": "r3f-journey-extra-loading",
+  "description": "Loading example from Three.js Journey course implemented with react-three-fiber",
+  "main": "src/index.jsx",
+  "keywords": [
+    "react-three-fiber",
+    "threejs-journey",
+    "r3f",
+    "three.js"
+  ],
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@react-three/drei": "8.6.3",
+    "@react-three/fiber": "7.0.25",
+    "@types/three": "^0.135.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-scripts": "4.0.3",
+    "three": "^0.135.0"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.37"
+  }
+}
