@@ -1,0 +1,28 @@
+{
+  "name": "r3f-journey-extra-mixing-html-and-webgl",
+  "description": "Mixing HTML and WebGL example from Three.js Journey course implemented with react-three-fiber",
+  "keywords": [
+    "react",
+    "r3f",
+    "three.js",
+    "three.js journey"
+  ],
+  "scripts": {
+    "test": "react-scripts test --env=jsdom",
+    "start": "react-scripts start",
+    "eject": "react-scripts eject",
+    "build": "react-scripts build"
+  },
+  "devDependencies": {
+    "react-scripts": "4.0.3"
+  },
+  "dependencies": {
+    "@react-three/drei": "8.7.4",
+    "@react-three/fiber": "7.0.25",
+    "@types/three": "0.137.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-icons": "4.3.1",
+    "three": "0.137.4"
+  }
+}
