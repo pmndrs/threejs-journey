@@ -119,6 +119,7 @@ export function ExamplesList() {
       <ExamplesRow title="Extra">
         <ExampleCard link="/extra/post-processing" thumbnail="/thumbnails/extra/post-processing.png" title="Post Processing" lessonNumber={32} />
         <ExampleCard link="/extra/loading" thumbnail="/thumbnails/extra/loading.png" title="Loading" lessonNumber={34} />
+        <ExampleCard link="/extra/mixing-html-and-webgl" thumbnail="/thumbnails/extra/mixing-html-and-webgl.png" title="Mixing Html and Webgl" lessonNumber={35} />
         <ExampleCard link="/extra/portal" thumbnail="/thumbnails/extra/portal.png" title="Portal" lessonNumber={39} />
       </ExamplesRow>
       <ExamplesRow title="Levels">
