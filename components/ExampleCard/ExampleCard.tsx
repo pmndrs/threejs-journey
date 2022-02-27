@@ -16,7 +16,7 @@ export function ExampleCard({ link, thumbnail, title, lessonNumber }: ExampleCar
       <div className={styles['card__content']}>
         <h3 className={styles['card__title']}>
           {title}
-          <span>Lesson {lessonNumber}</span>
+          {lessonNumber && <span>Lesson {lessonNumber}</span>}
         </h3>
 
         <Link href={link}>
