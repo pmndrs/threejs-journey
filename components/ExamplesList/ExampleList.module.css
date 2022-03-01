@@ -20,4 +20,11 @@
   gap: 32px;
   flex-wrap: wrap;
   padding: 0;
+  justify-content: center;
+}
+
+@media (min-width: 1240px) {
+  .example-row__list {
+    justify-content: space-between;
+  }
 }
