@@ -1,7 +1,12 @@
 .header {
+  position: relative;
+  max-width: min(80vw, 1024px);
   margin: 0 auto;
   margin-bottom: 48px;
-  padding-inline: 2vw;
+}
+
+.titleContainer {
+  margin: 0 50px;
   text-align: center;
   display: flex;
   flex-direction: row;
@@ -12,4 +17,14 @@
 
 .header h1 {
   font-weight: 400;
+  letter-spacing: -0.05em;
+  margin-bottom: 0.25em;
 }
+
+.repoLink {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
