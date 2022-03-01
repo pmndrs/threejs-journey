@@ -15,7 +15,7 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
-    "@react-three/drei": "^8.2.1",
+    "@react-three/drei": "7.27.5",
     "@react-three/fiber": "^7.0.24",
     "@types/three": "^0.135.0",
     "leva": "^0.9.16",
