@@ -18,6 +18,7 @@ At the moment the focus is on structural patterns and the experience, these exam
   <div>
 
 [![](https://img.shields.io/badge/r3f-Sandbox-151515)](https://journey.pmnd.rs/basics/textures)
+[![](https://img.shields.io/badge/original-Sandbox-151515)](https://journey.pmnd.rs/original/basics/textures)
 [![](https://img.shields.io/badge/11-Lesson-705df2)](https://threejs-journey.com/lessons/11)
 
   </div>
@@ -29,6 +30,7 @@ At the moment the focus is on structural patterns and the experience, these exam
   <div>
 
 [![](https://img.shields.io/badge/r3f-Sandbox-151515)](https://journey.pmnd.rs/basics/materials)
+[![](https://img.shields.io/badge/original-Sandbox-151515)](https://journey.pmnd.rs/original/basics/materials)
 [![](https://img.shields.io/badge/12-Lesson-705df2)](https://threejs-journey.com/lessons/12)
 
   </div>
@@ -40,6 +42,7 @@ At the moment the focus is on structural patterns and the experience, these exam
   <div>
 
 [![](https://img.shields.io/badge/r3f-Sandbox-151515)](https://journey.pmnd.rs/basics/text3d)
+[![](https://img.shields.io/badge/original-Sandbox-151515)](https://journey.pmnd.rs/original/basics/text3d)
 [![](https://img.shields.io/badge/13-Lesson-705df2)](https://threejs-journey.com/lessons/13)
 
   </div>
@@ -53,6 +56,7 @@ At the moment the focus is on structural patterns and the experience, these exam
   <div>
 
 [![](https://img.shields.io/badge/r3f-Sandbox-151515)](https://journey.pmnd.rs/classic-techniques/lights)
+[![](https://img.shields.io/badge/original-Sandbox-151515)](https://journey.pmnd.rs/original/classic-techniques/lights)
 [![](https://img.shields.io/badge/15-Lesson-705df2)](https://threejs-journey.com/lessons/15)
 
   </div>
@@ -64,6 +68,7 @@ At the moment the focus is on structural patterns and the experience, these exam
   <div>
 
 [![](https://img.shields.io/badge/r3f-Sandbox-151515)](https://journey.pmnd.rs/classic-techniques/haunted-house)
+[![](https://img.shields.io/badge/original-Sandbox-151515)](https://journey.pmnd.rs/original/classic-techniques/haunted-house)
 [![](https://img.shields.io/badge/17-Lesson-705df2)](https://threejs-journey.com/lessons/17)
 
   </div>
@@ -75,6 +80,7 @@ At the moment the focus is on structural patterns and the experience, these exam
   <div>
 
 [![](https://img.shields.io/badge/r3f-Sandbox-151515)](https://journey.pmnd.rs/classic-techniques/particles)
+[![](https://img.shields.io/badge/original-Sandbox-151515)](https://journey.pmnd.rs/original/classic-techniques/particles)
 [![](https://img.shields.io/badge/18-Lesson-705df2)](https://threejs-journey.com/lessons/18)
 
   </div>
@@ -86,6 +92,7 @@ At the moment the focus is on structural patterns and the experience, these exam
   <div>
 
 [![](https://img.shields.io/badge/r3f-Sandbox-151515)](https://journey.pmnd.rs/classic-techniques/particles-animated)
+[![](https://img.shields.io/badge/original-Sandbox-151515)](https://journey.pmnd.rs/original/classic-techniques/particles)
 [![](https://img.shields.io/badge/18-Lesson-705df2)](https://threejs-journey.com/lessons/18)
 
   </div>
@@ -97,6 +104,7 @@ At the moment the focus is on structural patterns and the experience, these exam
   <div>
 
 [![](https://img.shields.io/badge/r3f-Sandbox-151515)](https://journey.pmnd.rs/classic-techniques/galaxy-generator)
+[![](https://img.shields.io/badge/original-Sandbox-151515)](https://journey.pmnd.rs/original/classic-techniques/galaxy-generator)
 [![](https://img.shields.io/badge/19-Lesson-705df2)](https://threejs-journey.com/lessons/19)
 
   </div>
@@ -108,6 +116,7 @@ At the moment the focus is on structural patterns and the experience, these exam
   <div>
 
 [![](https://img.shields.io/badge/r3f-Sandbox-151515)](https://journey.pmnd.rs/classic-techniques/raycaster)
+[![](https://img.shields.io/badge/original-Sandbox-151515)](https://journey.pmnd.rs/original/classic-techniques/raycaster)
 [![](https://img.shields.io/badge/20-Lesson-705df2)](https://threejs-journey.com/lessons/20)
 
   </div>
@@ -119,6 +128,7 @@ At the moment the focus is on structural patterns and the experience, these exam
   <div>
 
 [![](https://img.shields.io/badge/r3f-Sandbox-151515)](https://journey.pmnd.rs/classic-techniques/scroll-based-animation)
+[![](https://img.shields.io/badge/original-Sandbox-151515)](https://journey.pmnd.rs/original/classic-techniques/scroll-based-animation)
 [![](https://img.shields.io/badge/21-Lesson-705df2)](https://threejs-journey.com/lessons/21)
 
   </div>
@@ -132,6 +142,7 @@ At the moment the focus is on structural patterns and the experience, these exam
   <div>
 
 [![](https://img.shields.io/badge/r3f-Sandbox-151515)](https://journey.pmnd.rs/advanced-techniques/physics)
+[![](https://img.shields.io/badge/original-Sandbox-151515)](https://journey.pmnd.rs/original/advanced-techniques/physics)
 [![](https://img.shields.io/badge/22-Lesson-705df2)](https://threejs-journey.com/lessons/22)
 
   </div>
@@ -145,6 +156,7 @@ At the moment the focus is on structural patterns and the experience, these exam
   <div>
 
 [![](https://img.shields.io/badge/r3f-Sandbox-151515)](https://journey.pmnd.rs/shaders/shader-patterns)
+[![](https://img.shields.io/badge/original-Sandbox-151515)](https://journey.pmnd.rs/original/shaders/shader-patterns)
 [![](https://img.shields.io/badge/28-Lesson-705df2)](https://threejs-journey.com/lessons/28)
 
   </div>
@@ -156,6 +168,7 @@ At the moment the focus is on structural patterns and the experience, these exam
   <div>
 
 [![](https://img.shields.io/badge/r3f-Sandbox-151515)](https://journey.pmnd.rs/shaders/raging-sea)
+[![](https://img.shields.io/badge/original-Sandbox-151515)](https://journey.pmnd.rs/original/shaders/raging-sea)
 [![](https://img.shields.io/badge/29-Lesson-705df2)](https://threejs-journey.com/lessons/29)
 
   </div>
@@ -167,6 +180,7 @@ At the moment the focus is on structural patterns and the experience, these exam
   <div>
 
 [![](https://img.shields.io/badge/r3f-Sandbox-151515)](https://journey.pmnd.rs/shaders/animated-galaxy)
+[![](https://img.shields.io/badge/original-Sandbox-151515)](https://journey.pmnd.rs/original/shaders/animated-galaxy)
 [![](https://img.shields.io/badge/30-Lesson-705df2)](https://threejs-journey.com/lessons/30)
 
   </div>
@@ -178,6 +192,7 @@ At the moment the focus is on structural patterns and the experience, these exam
   <div>
 
 [![](https://img.shields.io/badge/r3f-Sandbox-151515)](https://journey.pmnd.rs/shaders/modified-material)
+[![](https://img.shields.io/badge/original-Sandbox-151515)](https://journey.pmnd.rs/original/shaders/modified-material)
 [![](https://img.shields.io/badge/31-Lesson-705df2)](https://threejs-journey.com/lessons/31)
 
   </div>
@@ -191,6 +206,7 @@ At the moment the focus is on structural patterns and the experience, these exam
   <div>
 
 [![](https://img.shields.io/badge/r3f-Sandbox-151515)](https://journey.pmnd.rs/extra/post-processing)
+[![](https://img.shields.io/badge/original-Sandbox-151515)](https://journey.pmnd.rs/original/extra/post-processing)
 [![](https://img.shields.io/badge/32-Lesson-705df2)](https://threejs-journey.com/lessons/32)
 
   </div>
@@ -202,6 +218,7 @@ At the moment the focus is on structural patterns and the experience, these exam
   <div>
 
 [![](https://img.shields.io/badge/r3f-Sandbox-151515)](https://journey.pmnd.rs/extra/loading)
+[![](https://img.shields.io/badge/original-Sandbox-151515)](https://journey.pmnd.rs/original/extra/loading)
 [![](https://img.shields.io/badge/34-Lesson-705df2)](https://threejs-journey.com/lessons/34)
 
   </div>
@@ -213,6 +230,7 @@ At the moment the focus is on structural patterns and the experience, these exam
   <div>
 
 [![](https://img.shields.io/badge/r3f-Sandbox-151515)](https://journey.pmnd.rs/extra/mixing-html-and-webgl)
+[![](https://img.shields.io/badge/original-Sandbox-151515)](https://journey.pmnd.rs/original/extra/mixing-html-and-webgl)
 [![](https://img.shields.io/badge/35-Lesson-705df2)](https://threejs-journey.com/lessons/35)
 
   </div>
@@ -224,6 +242,7 @@ At the moment the focus is on structural patterns and the experience, these exam
   <div>
 
 [![](https://img.shields.io/badge/r3f-Sandbox-151515)](https://journey.pmnd.rs/extra/portal)
+[![](https://img.shields.io/badge/original-Sandbox-151515)](https://journey.pmnd.rs/original/extra/portal)
 [![](https://img.shields.io/badge/39-Lesson-705df2)](https://threejs-journey.com/lessons/39)
 
   </div>

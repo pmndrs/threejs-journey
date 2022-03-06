@@ -4,12 +4,13 @@ import styles from './ExampleCard.module.css'
 
 type ExampleCardProps = {
   link: string
+  originalLink?: string
   thumbnail: string
   title: string
   lessonNumber?: number
 }
 
-export function ExampleCard({ link, thumbnail, title, lessonNumber }: ExampleCardProps) {
+export function ExampleCard({ link, originalLink, thumbnail, title, lessonNumber }: ExampleCardProps) {
   return (
     <li className={styles['card']}>
       <Image width={300} height={300} src={thumbnail} alt="" />
@@ -27,6 +28,14 @@ export function ExampleCard({ link, thumbnail, title, lessonNumber }: ExampleCar
             Open sandbox
           </a>
         </Link>
+        {originalLink && <Link href={originalLink}>
+          <a 
+            className={styles['card__sandbox-link']}
+            target="_blank"
+            rel="noreferrer">
+            Open original example
+          </a>
+        </Link>}
         {lessonNumber && (
           <a
             href={`https://threejs-journey.com/lessons/${lessonNumber}`}
