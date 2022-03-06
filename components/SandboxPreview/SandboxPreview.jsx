@@ -1,7 +1,7 @@
 export function SandboxPreview({ title, exampleDir }) {
   return (
     <iframe
-      src={`https://codesandbox.io/embed/github/hazem3500/threejs-journey/tree/main/examples/${exampleDir}?view=preview&hidenavigation=1&module=/src/App.jsx`}
+      src={`https://codesandbox.io/embed/github/pmndrs/threejs-journey/tree/main/examples/${exampleDir}?view=preview&hidenavigation=1&module=/src/App.jsx`}
       style={{
         position: 'fixed',
         left: 0,
