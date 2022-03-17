@@ -1,7 +1,7 @@
 import { SandboxPreview } from '../../../components/SandboxPreview/SandboxPreview'
 import { SEO } from '../../../components/SEO/SEO'
 
-const title = 'Extra - Loading (loading)'
+const title = 'Extra - Loading (original)'
 
 export default function LoadingPage() {
   return (
